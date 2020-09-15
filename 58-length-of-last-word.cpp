@@ -22,3 +22,18 @@ public:
         return x.length();
     }
 };
+
+// VERSION 2
+class Solution
+{
+public:
+    int lengthOfLastWord(string s)
+    {
+        stringstream ss(s);
+        string word;
+        while (ss >> word)
+        {
+        }
+        return word.length();
+    }
+};
